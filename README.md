@@ -4,10 +4,10 @@ This project demonstrates the design and implementation of a relational database
 This system was designed to support common university data needs, including tracking student majors, course enrollment, prerequisites, faculty assignments, and academic performance. 
 
 ## Tools & Skills 
--SQL
--Microsoft SQL Server
--Relational Database Design
--Data Modeling
--Primary & Foreign Keys
--JOINs and Aggregate Functions
--Data Analysis
+- SQL
+- Microsoft SQL Server
+- Relational Database Design
+- Data Modeling
+- Primary & Foreign Keys
+- JOINs and Aggregate Functions
+- Data Analysis

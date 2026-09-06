@@ -35,7 +35,7 @@ After building and populating the database, I developed SQL queries to answer co
 ## Example: Retrieving a Student's Major
 This query joins the STUDENT, STUDENT MAJOR, and MAJOR tables to retrieve the major associated with a specific student. 
 
-'''sql
+```sql
 SELECT
   S.[Student ID],
   S.[First Name],
@@ -47,4 +47,4 @@ JOIN [STUDENT MAJOR] SM
 JOIN MAJOR M 
   ON SM.[Major ID] = M.[Major ID]
 WHERE S.[Student ID] = 'G2040413';
-'''
+```

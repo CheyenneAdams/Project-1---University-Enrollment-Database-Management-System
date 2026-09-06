@@ -31,3 +31,20 @@ After building and populating the database, I developed SQL queries to answer co
 - Filtering student records by state
 - Identifying students who have not declared a major
 - Calculating student GPA using CASE statements and aggregate functions
+
+## Example: Retrieving a Student's Major
+This query joins the STUDENT, STUDENT MAJOR, and MAJOR tables to retrieve the major associated with a specific student. 
+
+'''sql
+SELECT
+  S.[Student ID],
+  S.[First Name],
+  S.[Last Name],
+  M.[Major Name]
+FROM STUDENT S
+JOIN [STUDENT MAJOR] SM
+  ON S.[Student ID] = SM.[Student ID]
+JOIN MAJOR M 
+  ON SM.[Major ID] = M.[Major ID]
+WHERE S.[Student ID] = 'G2040413';
+'''

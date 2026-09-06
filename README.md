@@ -21,5 +21,13 @@ The database consists of nine interconnected tables:
 -  **PROFESSOR** - Stores faculty information and department assignments
 -  **COURSE** - Stores course information and credit values
 -  **PREREQUISITE** - Connects courses with their required prerequisite courses
--  **COURSE SELECTION** - Stores individual course sections, capacity, enrollment, professor, and semester information
+-  **COURSE SECTION** - Stores individual course sections, capacity, enrollment, professor, and semester information
 -  **ENROLLMENT** - Connects students to course sections and stores course grades
+
+## SQL Queries & Analysis
+After building and populating the database, I developed SQL queries to answer common university questions, including:
+- Retrieving the majors pursued by a specific student using multiple JOINs
+- Calculating the number of students enrolled in each major
+- Filtering student records by state
+- Identifying students who have not declared a major
+- Calculating student GPA using CASE statements and aggregate functions

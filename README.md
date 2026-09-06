@@ -1,1 +1,1 @@
-# Project-1---University-Enrollment-Database-Management-System
+# University Enrollment Database Management System

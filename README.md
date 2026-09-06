@@ -11,3 +11,15 @@ This system was designed to support common university data needs, including trac
 - Primary & Foreign Keys
 - JOINs and Aggregate Functions
 - Data Analysis
+
+## Database Structure
+The database consists of nine interconnected tables:
+- **STUDENT** - Stores student demographic and contact information
+-  **MAJOR** - Stores available academic majors
+-  **STUDENT MAJOR** - Connects students with their declared major(s)
+-  **DEPARTMENT** - Stores university department information
+-  **PROFESSOR** - Stores faculty information and department assignments
+-  **COURSE** - Stores course information and credit values
+-  **PREREQUISITE** - Connects courses with their required prerequisite courses
+-  **COURSE SELECTION** - Stores individual course sections, capacity, enrollment, professor, and semester information
+-  **ENROLLMENT** - Connects students to course sections and stores course grades
